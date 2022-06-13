@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 1, 1);
+    /* position: relative; */
+}
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.table-wrap{
+    /* position: absolute; */
+    background-color:antiquewhite;
+    width: 90vmin;
+    height: 90vmin;
+    border-radius: 50%;
+    position: relative;
+  
+}
+.table-top{
+    position: absolute;
+    width: 60vmin;
+    height: 15vmin;
+    border-radius: 50%;
+    top: 20vmin;
+    left: 16%;
+    background-color:white;
+    border: none;
+    border-bottom: 8px solid black;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    border-top: 1px solid black;
+}
+.leg1{
+    position: absolute;
+    width: 20vmin;
+    height: 40vmin;
+    border-radius:40%;
+    background-color: transparent;
+    top:37%;
+    left:25%;
+    border: none;
+    border-right: 5px solid black;
+}
+.leg1::after{
+    content: "";
+    position: absolute;
+    width: 20vmin;
+    height: 40vmin;
+    border-radius:35%;
+    background-color: transparent;
+    top:3%;
+    left:7%;
+    border: none;
+    border-right: 1px solid black;
+
+}
+.leg2{
+    position: absolute;
+    width: 20vmin;
+    height: 40vmin;
+    border-radius:40%;
+    background-color: transparent;
+    top:37%;
+    right:24%;
+    border: none;
+    border-left: 5px solid black;
+}
+.leg2::after{
+    content: "";
+    position: absolute;
+    width: 20vmin;
+    height: 40vmin;
+    border-radius:35%;
+    background-color: transparent;
+    top:3%;
+    right:7%;
+    border: none;
+    border-left: 0.2px solid black;
+}
+.table-bottom{
+    position: absolute;
+    width: 30vmin;
+    height: 15vmin;
+    border-radius: 50%;
+    top: 67vmin;
+    left: 34%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 8px solid black;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    /* border-top: 1px solid black; */
+}
