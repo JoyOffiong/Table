@@ -6,7 +6,6 @@
 
 body{
     background-color: rgb(24, 1, 1);
-    /* position: relative; */
 }
 .canvas{
     display: flex;
@@ -15,13 +14,11 @@ body{
     margin-top: 3%;
 }
 .table-wrap{
-    /* position: absolute; */
     background-color:antiquewhite;
     width: 90vmin;
     height: 90vmin;
     border-radius: 50%;
     position: relative;
-  
 }
 .table-top{
     position: absolute;
@@ -31,7 +28,6 @@ body{
     top: 20vmin;
     left: 16%;
     background-color:white;
-    border: none;
     border-bottom: 8px solid black;
     border-left: solid black 5px;
     border-right: solid black 5px;
@@ -59,8 +55,8 @@ body{
     left:7%;
     border: none;
     border-right: 1px solid black;
-
 }
+
 .leg2{
     position: absolute;
     width: 20vmin;
@@ -84,7 +80,7 @@ body{
     border: none;
     border-left: 0.2px solid black;
 }
-.table-bottom{
+.base{
     position: absolute;
     width: 30vmin;
     height: 15vmin;
@@ -96,5 +92,4 @@ body{
     border-bottom: 8px solid black;
     border-left: solid black 5px;
     border-right: solid black 5px;
-    /* border-top: 1px solid black; */
 }
